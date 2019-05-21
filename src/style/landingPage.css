@@ -13,7 +13,6 @@ body{
 
 .landingGrid{
     text-align: center;
-    /* position: fixed; */
     top: 0;
     left: 0;
     height: 100%;
@@ -21,9 +20,35 @@ body{
 }
 
 .avatarImage{
-    height: 390px;
+    height: 350px;
     margin: 40px 40px 10px 40px;
     border: 2px solid black;
     border-radius: 100%;
     background: black;
+}
+
+.fullName{
+    font-size: 50px;
+    padding: 0;
+    margin: 0px;
+}
+
+.socialNavGrid{
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.social-nav{
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    margin-left: 30%;
+}
+
+.social-icon{
+    color: white;
+    opacity: 0.8;
+    text-shadow: 1px 1px 1px #ccc;
 }
