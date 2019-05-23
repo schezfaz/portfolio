@@ -22,7 +22,7 @@ class Landing extends Component{
                         <img alt="avatar" className="avatarImage" src={require("./../imageData/schez.png")}/>
                         <div className="nameBanner">
                             <h1 className="fullName">Schezeen Fazulbhoy</h1>
-                            <p className="desc">Deeply invested in development, design and documentation, I am constantly striving to channelize these aspects in ways that they complement each other.</p>
+                            <p className="desc">Deeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply investeeply invested in development, design and documentation, I am constantly striving to channelize these aspects in ways that they complement each other.</p>
                         </div>
                     </Grid>
                </Grid>
