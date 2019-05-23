@@ -1,15 +1,11 @@
 import React from 'react';
 import './App.css';
-// import AppBar from '@material-ui/core/AppBar';
-import Landing from './components/landingPage';
+import Main from './components/main';
 
 function App() {
   return (
     <div>
-      {/* <AppBar color="primary" position="static">
-        <h1>sup</h1>
-      </AppBar> */}
-      <Landing/>
+      <Main/>
     </div>
 
   );

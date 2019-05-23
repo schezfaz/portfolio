@@ -29,11 +29,11 @@ class Landing extends Component{
 
                <div className ="horizontalNav"> 
                     <ul className="nav">
-                        <li><a className="navIcon" href="">ABOUT</a></li>
-                        <li><a className="navIcon" href="">WORK-EX</a></li>
-                        <li><a className="navIcon" href="">PROJECTS</a></li>
-                        <li><a className="navIcon" href="">RESUME</a></li>
-                        <li><a className="navIcon" href="">CONTACT</a></li>
+                        <li><a className="navIcon" href="/about">ABOUT</a></li>
+                        <li><a className="navIcon" href="/workex">WORK-EX</a></li>
+                        <li><a className="navIcon" href="/projects">PROJECTS</a></li>
+                        <li><a className="navIcon" href="/resume">RESUME</a></li>
+                        <li><a className="navIcon" href="/contact">CONTACT</a></li>
                     </ul>
                </div>
             </div>
