@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
 import './../style/landingPage.css';
 import Grid from '@material-ui/core/Grid';
@@ -16,15 +17,25 @@ class Landing extends Component{
                </Grid>
                 </div>
               
-               <Grid container className = "landingGrid">
+               <Grid container className = "detailsGrid">
                     <Grid item xs = {12}>
                         <img alt="avatar" className="avatarImage" src={require("./../imageData/schez.png")}/>
                         <div className="nameBanner">
                             <h1 className="fullName">Schezeen Fazulbhoy</h1>
-                            <p>Deeply invested in development, design and documentation, I am constantly striving to channelize these aspects in ways that they complement each other.</p>
+                            <p className="desc">Deeply invested in development, design and documentation, I am constantly striving to channelize these aspects in ways that they complement each other.</p>
                         </div>
                     </Grid>
                </Grid>
+
+               <div className ="horizontalNav"> 
+                    <ul className="nav">
+                        <li><a className="navIcon" href="">ABOUT</a></li>
+                        <li><a className="navIcon" href="">WORK-EX</a></li>
+                        <li><a className="navIcon" href="">PROJECTS</a></li>
+                        <li><a className="navIcon" href="">RESUME</a></li>
+                        <li><a className="navIcon" href="">CONTACT</a></li>
+                    </ul>
+               </div>
             </div>
         )
     }

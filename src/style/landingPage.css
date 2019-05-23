@@ -11,7 +11,7 @@ body{
     margin: auto;
 }
 
-.landingGrid{
+.detailsGrid{
     text-align: center;
     top: 0;
     left: 0;
@@ -34,6 +34,10 @@ body{
     margin: 0px;
 }
 
+.desc{
+    font-size: 20px;
+}
+
 .socialNavGrid{
     justify-content: space-evenly;
     text-align: center;
@@ -50,6 +54,44 @@ body{
 
 .social-icon{
     color: white;
-    opacity: 0.6;
+    opacity: 0.4;
+    margin: 0;
     text-shadow: 1px 1px 1px #ccc;
+}
+
+.social-icon:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.horizontalNav{
+    position: relative;
+}
+
+.nav{
+    position: absolute;
+    left: 21%; 
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.nav li{
+    float: left;
+}
+
+.navIcon{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: 3px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+}
+
+.navIcon:hover{
+    background-color: rgba(255,255,255,0.1);
 }
